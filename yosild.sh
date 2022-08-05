@@ -9,13 +9,15 @@
 
 # ----- Config --------------------------
 device="sdc"
-distro_name="Yosild"
-distro_desc="Your simple Linux distro"
-distro_codename="chinchilla"
+distro_name="Alfly"
+distro_desc="Alfly Mini Stable Distro Linux"
+distro_codename="alfly"
 telnetd_enabled="true"
 hyperv_support="false"
-kernel="https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.16.19.tar.xz"
-busybox="https://busybox.net/downloads/busybox-1.34.1.tar.bz2"
+#kernel="https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.16.19.tar.xz"
+kernel="https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.18.16.tar.xz"
+#busybox="https://busybox.net/downloads/busybox-1.34.1.tar.bz2"
+busybox="https://busybox.net/downloads/busybox-1.35.0.tar.bz2"
 # ---------------------------------------
 
 if [ $(id -u) -ne 0 ]; then
